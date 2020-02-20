@@ -65,9 +65,6 @@ img:focus {
 .nav__list {
     justify-content: space-between;
 }
-.nav__item {
-    letter-spacing: 1px;
-}
 .nav__item::after {
     content: " · ";
     margin-left: 13px;
