@@ -87,3 +87,10 @@ img:focus {
 .nav__link-red:hover {
     color: #ffffff;
 }
+.main {
+    position: relative;
+    display: grid;
+    grid-template-rows: 600px 496px;
+    grid-template-columns: 1020px;
+    border-top: 6px solid #323746;
+}
