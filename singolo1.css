@@ -9,6 +9,7 @@ body {
     min-height: 100%;
     margin: 0 auto;
     overflow-x: hidden;
+    scroll-behavior: smooth;
     font-size: 12px;
     font-family: 'Lato', sans-serif;
     background-color: #f2f2f2;
@@ -93,4 +94,36 @@ img:focus {
     grid-template-rows: 600px 496px;
     grid-template-columns: 1020px;
     border-top: 6px solid #323746;
+}
+.slider {
+    border-bottom: 6px solid #ea676b;
+    overflow-x: hidden;
+    background: #f06c64;
+}
+.slider__arrow {
+    display: inline-block;
+    position: absolute;
+    opacity: 0.8;
+}
+.slider__arrow-left {
+    left: 4.2%;
+    margin-top: 281px;
+    cursor: pointer;
+}
+.slider__arrow-right {
+    right: 4%;
+    margin-top: 280px;
+    cursor: pointer;
+}
+.slide__img {
+    position: absolute;
+    display: inline-block;
+}
+.img-vertical {
+    top: 53px;
+    left: 112px;
+}
+.img-horizontal {
+    right: 111px;
+    top: 174px
 }
