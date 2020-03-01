@@ -25,10 +25,6 @@ a {
 img:focus {
     outline: none;
 }
-.flex {
-    display: flex;
-}
-
 .wrapper__part_two {
     display: grid;
     grid-template-rows: 864px 735px;
