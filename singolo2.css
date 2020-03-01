@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+body {
+    position: relative;
+    width: 1020px;
+    min-height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    background-color: #f2f2f2;
+}
+li {
+    list-style: none;
+}
+a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    cursor: pointer; 
+}
+img:focus {
+    outline: none;
+}
+.flex {
+    display: flex;
+}
+
+.wrapper__part_two {
+    display: grid;
+    grid-template-rows: 864px 735px;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    border-bottom: 6px solid #ffffff;
+    background-color: #f2f2f2;
+}
+.portfolio {
+    color: #666D89;
+    background: #2D303A;
+}
+.portfolio__text__wrapper {
+    margin-top: 70px;
+    margin-left: 42px;
+}
+.portfolio__title {
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 0.16px;
+    line-height: 17px;
+}
+.portfolio__text {
+    margin-bottom: 13px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.19px;
+    word-spacing: -2.6px;
+    line-height: 30px;
+}
+.portfolio__buttons {
+    margin-bottom: 18px;
+}
+.portfolio__button {
+    margin-right: 9px;
+    border: 1.0px solid #666d89;
+    border-radius: 5px;
+    background: #2D303A;
+}
+.portfolio__button:hover {
+    background: #ffffff;
+    color: #2D303A;;
+}
+.portfolio__button a {
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #767e9e;
+}
+.portfolio__button-white {
+    border: 1.0px solid #c5c5c5;
+}
+.portfolio__button-white a{
+    color: #dedede;
+}
+.portfolio__button-white a:hover {
+    color: #767e9e;
+}
+.portfolio__gallery__wrapper {
+    padding: 0 40px;
+}
+.portfolio__gallery {
+    display: grid;
+    grid-template-rows: repeat(3, 188px);
+    row-gap: 19px;
+}
+.gallery__row {
+    display: grid;
+    grid-template-columns: repeat(4, 221px);
+    column-gap: 19px;
+}
+.gallery__row__last {
+    display: none;
+}
+.gallery__item__img {
+    width: 220px;
+    height: 187px;
+}
+.about-us {
+    border-top: 6px solid #323746;
+    color: #767E9E;
+    background: #F2F2F2;
+}
+.about-us__text {
+    margin-top: 68px;
+    margin-left: 40px;
+}
+.about-us__title {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: -0.2px;
+    line-height: 17px;
+}
+.about-us__par {
+    margin-top: 27px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.19px;
+    word-spacing: -1.7px;
+    line-height: 30px;
+}
+.photo__gallery__wrapper {
+    margin-top: 45px;
+}
+.photo__gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    column-gap: 20px;
+    padding: 0 40px;
+}
+.photo__gallery__text {
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.photo__gallery__title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 17px;
+}
+.photo__gallery__par {
+    font-size: 12px;
+    font-weight: 400;
+    white-space: nowrap;
+    line-height: 21px;
+}
+.photo__gallery__icon {
+    margin-right: 5px;
+    cursor: pointer;
+}
+.photo__gallery__icon img:hover {
+    background: #f06c64;
+    border-radius: 50%;
+}
